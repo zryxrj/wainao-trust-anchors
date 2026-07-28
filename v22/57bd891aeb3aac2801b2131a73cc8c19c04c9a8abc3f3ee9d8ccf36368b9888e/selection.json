@@ -1,0 +1,22 @@
+{
+  "candidate_set_sha256": "b58de57179a570a8485eb03bb8d0b49be31940ee153f41e60f964f0f24a80e05",
+  "eligible_pair_count": 54,
+  "evaluator_specification_sha256": "7b295175538bef59b4ca924f21e8486efd15960bb7738bb39996aeffdb1c8e69",
+  "excluded_frozen_v14_pair_count": 24,
+  "freezer_principal": "wainao-freezer-v22",
+  "freezer_role_is_implementer": false,
+  "hidden_sample_materialized": false,
+  "mode": "external_hidden_selection_manifest_v22",
+  "request_id": "57bd891aeb3aac2801b2131a73cc8c19c04c9a8abc3f3ee9d8ccf36368b9888e",
+  "request_sha256": "93868ec66638f380d89a3eb0b90388d793fee6a0fe6a441f150d88382b7bfb72",
+  "runner_source_sha256": "07fa5545a24ed03a42ca6aef695312bcc0cb34b21d4dc7876d0355f31795a836",
+  "sample_size": 24,
+  "sampling_salt_commitment_sha256": "d615801b64d184b0ee4557d218fd71b9539f14ed912cb5c6905006782f7e37a5",
+  "schema_version": 1,
+  "selected_pair_ids_disclosed": false,
+  "selection_manifest_id": "c3591ddaff286b4a5cc6f59d5fd1d8032cbaa60adb8f0cffc1a980402aa01750",
+  "selection_procedure_sha256": "22ad99e4381c2d6233d129b7f42383e1013015b1169635fa4c03fad3042bf1cf",
+  "source_payload_sha256": "944ca7bf26f4ba6212715881f4f2840e4116b49c7a57f5fcb9e59aca03626837",
+  "source_universe_definition_sha256": "7c88892306ac653d4ac30471202f9b420a86d707a6f62c3cdeab099ab842742c",
+  "source_universe_snapshot_sha256": "c4c2a28282fd8a2ae9d3a1be07b17094b45f9593c7ad910ef13e65e597f090c6"
+}
