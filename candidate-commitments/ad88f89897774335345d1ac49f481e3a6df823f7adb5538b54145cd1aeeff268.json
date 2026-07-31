@@ -1,0 +1,18 @@
+{
+  "automated_behavioral_result_value_read_count": 0,
+  "behavioral_evaluator_sha256": "9b08228462ce84daee012cacfbd2909246e91b57c30c22db3a3fb08fc43978c3",
+  "candidate_universe_count": 57,
+  "candidate_universe_sha256": "595e519608a321202ec80c2b8d4dc5a7b59da6385efbdf41498c7cfea29ed2d4",
+  "closed_cluster_universe_sha256": "1e8c34bb2e9d960fc3382a72b6753ea0e25e9dee5e88363cd1a005ef58c76a9c",
+  "commitment_stage": "PRE_PUBLIC_RESULT_FREE_CANDIDATE_UNIVERSE",
+  "comparator_sha256": "ff33550effe0e80c8ee6c22fe81a49429c6f1048d7cfdf88b2a5ce6ce95ad152",
+  "hidden_cluster_set_sha256": "30689ce8941396eb925992a3c5c76281d60e58c9e74ea97bf17548d97c5e0e90",
+  "hidden_result_value_read_count": 0,
+  "maximum_official_run_count": 1,
+  "mode": "normative_test262_refinement_commitment_envelope_v65",
+  "public_cluster_set_sha256": "8c17e9d519d00b654e06e51b7a35abf2bfec44e69e3ece94500e02c6a8e1dcfa",
+  "public_selector_sha256": "83de4aed39bab654d63ea8d502495f656bfe9515c31e2c5d557d4b2b3ce6716f",
+  "source_authority_call_candidate_set_sha256": "1d8703d36dcf6a2eadf843dc378a83dd839258d4619e23af2e33d3e597159c05",
+  "upstream_future_revision_selector_commitment_sha256": "b2b0d67d9c7ce73161b0b609a4ac87eb14684a22ebce38d413ab50487f02ec90",
+  "v65_contract_sha256": "a49d50c1a574ad5f1b38d3cea1384b70e4ecbc747050e2fde70fe306e12318b2"
+}
