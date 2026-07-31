@@ -1,0 +1,108 @@
+{
+  "commitment_stage": "FROZEN_PRE_FRESH_COLLECTION",
+  "fresh_collection_allowed_now": false,
+  "fresh_collection_status": "WAITING_FOR_CUTOFF_AND_PUBLIC_GIT_ANCHOR",
+  "fresh_source_bridge": {
+    "collection_must_begin_after_cutoff_and_complete_anchor": true,
+    "current_verified_anchor_evidence_count": 2,
+    "future_revision_selector": {
+      "baseline_commit_sha": "5ef1e5723be95296f36afb0386676fed0205869c",
+      "commit_must_be_strict_descendant_of_baseline": true,
+      "cutoff_utc": "2026-08-07T00:00:00Z",
+      "history_evidence_sha256_required": true,
+      "history_input_order": "oldest_to_newest_first_parent_chain_excluding_baseline",
+      "manual_commit_selection_count": 0,
+      "no_eligible_revision_action": "ABORT_UNCONSUMED_NEW_CONTRACT_REQUIRED",
+      "repository_url": "https://github.com/tc39/test262",
+      "result_availability_or_value_may_affect_selection": false,
+      "selection_rule": "first_first_parent_commit_after_baseline_with_committer_time_not_before_cutoff_utc",
+      "source_ref": "refs/heads/main"
+    },
+    "public_git_anchor_status": "PENDING_REPOSITORY_COMMIT_AND_PUBLIC_TAG",
+    "required_anchor_evidence_count": 3,
+    "v62_anchor_request_sha256": "7eb46e06554521f71d221a1245115b03cadeef390157c3b975750691e129360e",
+    "v62_selector_envelope_sha256": "4a3f341d8e2616bd222900065d3c90c924acd9cd531d0d4f6b3b4995f428cda2",
+    "v62_verified_rfc3161_operator_ids": [
+      "globalsign_nv_sa",
+      "sectigo_limited"
+    ]
+  },
+  "fresh_source_bridge_sha256": "8b003e4afa260afc21abce2dd370597d4b4e8866903a462b9cf9d8468ec8c76a",
+  "frozen_inputs": {
+    "scripts/normative_test262_compositional_search_v69.py": "4bb4eb278147df5085624a6889026581a0487731d3a6078fbedd2c6198d59b7c",
+    "scripts/normative_test262_fresh_protocol.py": "08675117222743e9f55e4f2f9abfaf91ba435decdf446698d2d77537b60b9af5",
+    "scripts/normative_test262_public_evaluation_v68.py": "e2ae4ea7795826ca937d26f8cc87b74b08e295b3db5b39b9b603049f2ed2bbbc",
+    "scripts/test262_public_runner_v68.js": "ec53178e15789b450965da2a4ade6bff7256946f820a1940bb1d1a95b0b50382",
+    "seed/normative_test262_compositional_contract_v69.json": "d62f4eb92c0ea8cacf5a1405268f4451fb3b57048fae24d854dd5fa342cb8919",
+    "seed/normative_test262_compositional_result_v69.json": "b8dacaeb9da3830bb83570b6456554c52e996f0cf259e0e8fbf52f795d90d914",
+    "seed/normative_test262_compositional_snapshot_v69.json": "f8923feab126a3afa9d0fc535ad71c9efedcaabf4245712c2b82a2a1a9ae22b2",
+    "seed/normative_test262_engine_runtime_manifest_v62.json": "def49885b6fbf780660bf7a2d4fab30e229b412278af5f0bcf1b585e8c68408e",
+    "seed/normative_test262_engine_runtime_result_v62.json": "eadfc2fcdd440a5533fc252ecdafc491531a19c12823e004bc5e8c654ee5cf97",
+    "seed/normative_test262_fresh_outer_evidence_request_v69.json": "9c0b0d9f1381fe82100ffee2ccc41452d9e6e6a89976b775296c5d0543c69cd6",
+    "seed/normative_test262_selector_anchor_envelope_v62.json": "7f4545ea288e7581e3dddbb5192b24b09f359e3c82f1bce44f26d21ae5a05358",
+    "seed/normative_test262_selector_anchor_progress_v62.json": "26550b77be07467a78abab927332b2b63965c7fb16abbeae903c72875bba46a4",
+    "seed/normative_test262_selector_anchor_request_v62.json": "da9871f971c8186a5dfc854083ddb28181b33bb0cebdad9b677f7ed05576a3d1"
+  },
+  "gate_policy": {
+    "alpha_allocation": "EQUAL_SPLIT_ACROSS_TWO_PREDECLARED_METRICS",
+    "both_metrics_reported_even_when_one_fails": true,
+    "familywise_alpha_millionths": 50000,
+    "hidden_run_arm_operator": "ANY_PREDECLARED_METRIC_PASSES",
+    "metric_count": 2,
+    "per_metric": {
+      "minimum_decisive_fold_count": 5,
+      "one_sided_sign_test_p_value_maximum_millionths": 25000,
+      "strict_negative_fold_count_maximum": 0,
+      "total_advantage_minimum_exclusive": 0
+    },
+    "posthoc_metric_selection_allowed": false,
+    "report_largest_positive_fold_share": true,
+    "report_raw_counts_and_normalized_rate": true
+  },
+  "gate_policy_sha256": "68b1f59da796d2264d3fa12a96fa0a1ba85002cc5c33b8f03b2a53d74b79db50",
+  "language_digest_frozen_before_any_fresh_collection": true,
+  "learned_design_constraints": [
+    {
+      "constraint": "A promising public diagnostic freezes the language; it does not authorize a larger search.",
+      "status": "ENFORCED"
+    },
+    {
+      "constraint": "A second metric must be frozen before fresh collection, reported beside the first metric, and never chosen after outcomes are known.",
+      "status": "ENFORCED"
+    },
+    {
+      "constraint": "Metric B filters on within-event engine disagreement, never on whether the two endpoint labels differ.",
+      "status": "ENFORCED"
+    },
+    {
+      "constraint": "The future source selector, evaluator, metrics, gate, and runtime are one commitment.",
+      "status": "ENFORCED"
+    }
+  ],
+  "machine_authored_gate_verdict_count": 0,
+  "maximum_official_run_count": 1,
+  "metric_policy": {
+    "both_metrics_must_be_reported": true,
+    "engine_vector_width": 3,
+    "metric_a_pair_eligibility": "ALL_EVENT_PAIRS",
+    "metric_b_estimand": "cross_engine_divergence_local_discrimination",
+    "metric_b_may_affect_selector": false,
+    "metric_b_pair_eligibility": "non_unanimous(left_vector) OR non_unanimous(right_vector)",
+    "metric_ids": [
+      "A_ALL_EVENT_PAIRS",
+      "B_DIVERGENCE_LOCAL"
+    ],
+    "net_advantage_definition": "corrected_comparator_false_equivalence_count - introduced_candidate_false_distinction_count",
+    "same_selected_formula_and_split_pairs_for_both_metrics": true,
+    "unanimous_vector_definition": "all three engine bits are identical"
+  },
+  "metric_policy_sha256": "79b1abc00c54924810b4a22745ad58e528889fb9612a0e4879e37b0e6767a06e",
+  "mode": "normative_test262_fresh_protocol_v1",
+  "official_hidden_run_allowed": false,
+  "official_run_count": 0,
+  "selector_and_language_digest": "d0efe63b60df7deeca0dd654dd7ce09f0c9675bd54353372b96eb5c9112f69ff",
+  "truth_boundary": "This contract does not change v69's 173 features, signed two-literal ALL_OF/ANY_OF language, inner admission, selector order, folds, candidate universe, or abstention rule. Metric B is a predeclared secondary estimand evaluated on the exact split rows selected under metric A; it cannot select a formula. Both metrics and their equal alpha allocation are reported on the single future Test262 document epoch. The two existing RFC3161 anchors cover the v62 future-revision envelope; collection remains closed until the public Git anchor is complete and the cutoff has passed. No current public label, resampling, language expansion, metric change, or machine-authored verdict can arm a hidden run.",
+  "writes_authority": false,
+  "writes_mainline": false,
+  "writes_sgf": false
+}

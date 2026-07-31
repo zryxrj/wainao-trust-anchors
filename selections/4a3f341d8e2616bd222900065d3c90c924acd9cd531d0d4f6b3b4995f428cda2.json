@@ -1,0 +1,24 @@
+{
+  "anchor_scope": "future_test262_selector_and_closed_evaluation_partition",
+  "closed_cluster_universe_sha256": "1e8c34bb2e9d960fc3382a72b6753ea0e25e9dee5e88363cd1a005ef58c76a9c",
+  "future_revision_selector": {
+    "baseline_commit_sha": "5ef1e5723be95296f36afb0386676fed0205869c",
+    "commit_must_be_strict_descendant_of_baseline": true,
+    "cutoff_utc": "2026-08-07T00:00:00Z",
+    "history_evidence_sha256_required": true,
+    "history_input_order": "oldest_to_newest_first_parent_chain_excluding_baseline",
+    "manual_commit_selection_count": 0,
+    "no_eligible_revision_action": "ABORT_UNCONSUMED_NEW_CONTRACT_REQUIRED",
+    "repository_url": "https://github.com/tc39/test262",
+    "result_availability_or_value_may_affect_selection": false,
+    "selection_rule": "first_first_parent_commit_after_baseline_with_committer_time_not_before_cutoff_utc",
+    "source_ref": "refs/heads/main"
+  },
+  "hidden_cluster_set_sha256": "30689ce8941396eb925992a3c5c76281d60e58c9e74ea97bf17548d97c5e0e90",
+  "hidden_result_value_read_count": 0,
+  "maximum_official_run_count": 1,
+  "mode": "normative_test262_selector_anchor_envelope_v62",
+  "public_cluster_set_sha256": "8c17e9d519d00b654e06e51b7a35abf2bfec44e69e3ece94500e02c6a8e1dcfa",
+  "selector_commitment_sha256": "b2b0d67d9c7ce73161b0b609a4ac87eb14684a22ebce38d413ab50487f02ec90",
+  "v61_contract_sha256": "05d49cfaf55d031c239c5e0df8eba02beb504f993815ac4bee0f4e4e8c4724af"
+}
