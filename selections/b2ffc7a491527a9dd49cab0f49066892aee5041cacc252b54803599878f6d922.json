@@ -1,0 +1,112 @@
+{
+  "anchor_policy": {
+    "archive_enumeration_before_anchor_complete_allowed": false,
+    "behavior_read_before_anchor_complete_allowed": false,
+    "freshness_boundary": "MAX_VERIFIED_RFC3161_TOKEN_GEN_TIME_UTC",
+    "public_git_must_verify_exact_protocol_before_rfc3161": true,
+    "recording_order": [
+      "public_git",
+      "tsa_globalsign",
+      "tsa_sectigo"
+    ],
+    "required_anchor_ids": [
+      "public_git",
+      "tsa_globalsign",
+      "tsa_sectigo"
+    ]
+  },
+  "collection_status": "PENDING_PUBLIC_GIT_THEN_TWO_RFC3161_ANCHORS",
+  "engine_epoch_selector": {
+    "archive_origin": "https://archive.mozilla.org",
+    "archive_root": "https://archive.mozilla.org/pub/firefox/nightly/",
+    "artifact_name": "jsshell-win64.zip",
+    "behavior_read_may_affect_selection": false,
+    "channel": "mozilla-central-nightly",
+    "engine_family_count": 1,
+    "identity_read_may_affect_selection": false,
+    "immutable_directory_pattern": "/pub/firefox/nightly/YYYY/MM/YYYY-MM-DD-HH-MM-SS-mozilla-central/",
+    "moving_latest_alias_allowed": false,
+    "no_eligible_epoch_action": "ABORT_UNCONSUMED_NEW_CONTRACT_REQUIRED",
+    "platform": "win64",
+    "posthoc_engine_family_selection_allowed": false,
+    "provider": "mozilla",
+    "selection_rule": "FIRST_UNIQUE_IMMUTABLE_ARCHIVE_DIRECTORY_STRICTLY_AFTER_LATEST_VERIFIED_RFC3161_TIME"
+  },
+  "fresh_collection_allowed_now": false,
+  "frozen_inputs": {
+    "scripts/normative_test262_compositional_search_v69.py": "4bb4eb278147df5085624a6889026581a0487731d3a6078fbedd2c6198d59b7c",
+    "scripts/normative_test262_engine_epoch_v71.py": "ea6cba9311f71efcea93f8845b48f66fcba1a29290e15f69c2547c8a197b688e",
+    "scripts/normative_test262_fresh_protocol.py": "08675117222743e9f55e4f2f9abfaf91ba435decdf446698d2d77537b60b9af5",
+    "scripts/normative_test262_public_evaluation_v68.py": "e2ae4ea7795826ca937d26f8cc87b74b08e295b3db5b39b9b603049f2ed2bbbc",
+    "scripts/normative_test262_runtime_v62.py": "0d046739037fab39a9610c904cced60ee96b3ceeb3de4c2e1c225c8ac1e9b28f",
+    "scripts/test262_public_runner_v68.js": "ec53178e15789b450965da2a4ade6bff7256946f820a1940bb1d1a95b0b50382",
+    "seed/normative_test262_compositional_contract_v69.json": "d62f4eb92c0ea8cacf5a1405268f4451fb3b57048fae24d854dd5fa342cb8919",
+    "seed/normative_test262_compositional_data_v69.json": "146384751b3aa3fb59ee2585ac8e014324f97cac5d6c3c5214dcb83e87a1fbaa",
+    "seed/normative_test262_compositional_result_v69.json": "b8dacaeb9da3830bb83570b6456554c52e996f0cf259e0e8fbf52f795d90d914",
+    "seed/normative_test262_compositional_snapshot_v69.json": "f8923feab126a3afa9d0fc535ad71c9efedcaabf4245712c2b82a2a1a9ae22b2",
+    "seed/normative_test262_engine_runtime_manifest_v62.json": "def49885b6fbf780660bf7a2d4fab30e229b412278af5f0bcf1b585e8c68408e",
+    "seed/normative_test262_fresh_outer_evidence_request_v69.json": "9c0b0d9f1381fe82100ffee2ccc41452d9e6e6a89976b775296c5d0543c69cd6",
+    "seed/normative_test262_fresh_protocol.json": "519ca88a45f458d83d48140773e35e8c0bea3a0f31c81d3513e823b8698d1f8e",
+    "seed/normative_test262_public_evaluation_contract_v68.json": "d6f6d55ed7c06ef96e4be14680888e3f78e264072ebadfb50534df33b37b1435",
+    "seed/normative_test262_public_evaluation_preflight_v68.json": "a93c9e6c5169abbd84a403d87af9fee5d3ef463d7d3a551347bc5b3e6b202287"
+  },
+  "hidden_result_value_read_count": 0,
+  "learned_constraints": [
+    "A parallel protocol may add an evidence source but may not edit the primary protocol.",
+    "A new protocol is fresh only relative to its own completed public and timestamp anchor.",
+    "Independent preregistration is not a claim of statistical independence.",
+    "An exposed 50-of-51 item may diagnose a missing route but may not justify a literal-specific repair.",
+    "A repeated invalid Arm-0 run is not evidence of stall and must not be retried before its checkpoint is hermetic."
+  ],
+  "machine_authored_gate_verdict_count": 0,
+  "mode": "normative_test262_parallel_engine_epoch_protocol_v71",
+  "official_run_count": 0,
+  "parallel_protocol_is_new_experiment": true,
+  "parent_evidence_request_sha256": "847fb28fe5f3e22d64c3046824fe6f3bd83efe72d716b47d2480ea30a8d5d4e4",
+  "parent_selector_and_language_digest": "d0efe63b60df7deeca0dd654dd7ce09f0c9675bd54353372b96eb5c9112f69ff",
+  "primary_fresh_protocol_sha256": "c4bf286158c8792f1f85639f1c4b9bc1e28dab7ec01bc06e4b3dab49c33a503f",
+  "primary_hidden_run_armed": false,
+  "primary_protocol_mutation_allowed": false,
+  "public_behavioral_result_value_read_count": 0,
+  "public_evaluation_policy": {
+    "both_metrics_must_be_reported": true,
+    "descriptive_only": true,
+    "ecma262_commit_sha": "994b48ed0c0940edaa0e4ce4d9e358fa3ba91edb",
+    "hidden_partition_read_allowed": false,
+    "inference_role": "SECONDARY_DIRECTIONAL_PUBLIC_ONLY",
+    "maximum_official_run_count": 1,
+    "may_arm_primary_hidden_run": false,
+    "metric_ids": [
+      "A_ALL_EVENT_PAIRS",
+      "B_DIVERGENCE_LOCAL"
+    ],
+    "posthoc_metric_selection_allowed": false,
+    "public_test_file_manifest_sha256": "c8141b3884ecbd95144219a9b54f464b004aeebae6744299f8bec58647857b55",
+    "same_selected_formula_and_split_pairs_for_both_metrics": true,
+    "selected_formula_source": "v69_nested_public_diagnostic_exact_per_fold_selection",
+    "statistical_independence_claimed": false,
+    "test262_commit_sha": "5ef1e5723be95296f36afb0386676fed0205869c"
+  },
+  "runtime_policy": {
+    "baseline_engine_order": [
+      "v8",
+      "sm",
+      "jsc"
+    ],
+    "baseline_sm_identity_text": "JavaScript-C148.0",
+    "baseline_v8_and_jsc_must_match_v62_manifest": true,
+    "epoch_engine_order": [
+      "v8",
+      "sm",
+      "jsc"
+    ],
+    "new_sm_archive_sha256_must_be_recorded": true,
+    "new_sm_executable_and_runtime_tree_sha256_must_be_recorded": true,
+    "new_sm_identity_must_differ": true,
+    "replaced_engine_family": "sm"
+  },
+  "truth_boundary": "V71 adds one secondary public Mozilla Nightly jsshell epoch. The exact V69 formulas, V68 public corpus, V70 primary protocol, two metrics and primary hidden budget remain unchanged. A V71 threshold crossing is directional replication evidence only and cannot arm or spend the primary hidden run.",
+  "writes_authority": false,
+  "writes_mainline": false,
+  "writes_sgf": false
+}
