@@ -1,0 +1,84 @@
+{
+  "anchor_protocol": {
+    "anchor_target": "EXACT_RESOURCE_ONLY_SUCCESSOR_CONTRACT_BYTES",
+    "distinct_tsa_operator_count_minimum": 2,
+    "pre_run_time_anchor_count_minimum": 2,
+    "public_git_counts_as_time_evidence": false,
+    "required_anchor_ids": [
+      "public_git",
+      "tsa_globalsign",
+      "tsa_sectigo"
+    ]
+  },
+  "authority_boundary": {
+    "automatic_family_promotion_open": false,
+    "c3_independent_heldout_claim_open": false,
+    "human_role": "CONFIRM_NOVEL_FAMILY_NOT_PROPOSE_IT",
+    "machine_authored_gate_verdict_count": 0,
+    "machine_output_is_gate_input": false,
+    "split_replay_allowed": false
+  },
+  "frozen_inputs": {
+    "scripts/external_verifier_runtime_v24.py": "6c0e2ec39cd6170d7a80dbd6b3884ca99c006075b8fc9c53916d19779bb03595",
+    "scripts/operator_blind_concept_agent.py": "7ad17e42a021bc11b1d2fcb88c8e5410e28db5aa659c82bfde0e2e13507c5a48",
+    "scripts/operator_blind_corpus_freezer_v2.py": "1679d5359aee28aaf65016640298041be0349962a2c1cc56dfdb77c9c0120ea4",
+    "scripts/record_external_anchor_evidence_v1.py": "86c88618f31eb4632fcbd4719dceb3d1122911fb8e3382fb6cf7c74e0795d8e0",
+    "seed/normative_external_freezer_request_v24_template.json": "cb9ff802435038e7ccc598cbc60bf4f4815d00d7021d61543d00b0cbff4134ec",
+    "seed/operator_blind_c1_resource_census_v1.json": "8c8369614eb559c9900a4a4a98277ca569d7d985e5c14da3d077516ebadfb7d8",
+    "seed/operator_blind_concept_agent_contract_v1.json": "7b2a9a8810aa621d608abc127caea4b47fb8ea307e1b655a67291a7f39dee341",
+    "seed/operator_blind_corpus_freezer_contract_v2.json": "8071de418460e2b8b70cd9aa7e321a50dfe532589006220ade2ff63a0cc48227",
+    "seed/operator_blind_corpus_public_commitment_v3.json": "9544c86cf2f4c60dff948a66251333d9bd4c60ef1d5ff2938f8a236f88ef4142",
+    "seed/operator_blind_official_c1_audit_abort_receipt_v1.json": "d8e57f19f31b84544ee814a38ce2d911f062b0d30fb2d54c022d0d674613ec6a"
+  },
+  "implementation_sha256": "9f6db35ecb4c25752eb3955c1cc01e35397942a8002f1da26a8fca256c6c2541",
+  "mode": "operator_blind_c1_resource_successor_contract_v1",
+  "resource_census": {
+    "cluster_invocation_count": 0,
+    "discovery_document_count": 89,
+    "external_heldout_identity_read_count": 0,
+    "external_heldout_value_read_count": 0,
+    "hypothesis_generation_invocation_count": 0,
+    "material_byte_count": 6047096,
+    "maximum_single_document_projection_unit_count": 6857,
+    "projection_unit_count": 107315,
+    "split_salt_value_read_count": 0
+  },
+  "resource_only_delta": {
+    "cap_headroom_projection_unit_count": 23757,
+    "cap_rule": "SMALLEST_POWER_OF_TWO_NOT_LESS_THAN_OBSERVED_COUNT",
+    "observed_projection_unit_count": 107315,
+    "original_projection_unit_cap": 50000,
+    "override_target": "scripts.operator_blind_concept_agent.MAX_PROJECTION_UNIT_COUNT",
+    "restore_original_cap_after_run": true,
+    "successor_projection_unit_cap": 131072
+  },
+  "run_protocol": {
+    "claim_role": "SECONDARY_RESOURCE_RECOVERY",
+    "full_output_sealed_before_summary": true,
+    "maximum_official_successor_run_count": 1,
+    "original_official_run_consumed": true,
+    "posthoc_language_cluster_or_metric_change_allowed": false,
+    "pre_run_three_anchor_verification_required": true,
+    "run_lock_written_before_measurement": true
+  },
+  "semantic_invariants": {
+    "clustering_implementation_changed": false,
+    "corpus_identity_changed": false,
+    "discovery_heldout_split_changed": false,
+    "heldout_or_salt_read_allowed": false,
+    "hypothesis_limit_changed": false,
+    "metric_or_status_rule_changed": false,
+    "predeclared_identifier_set_changed": false,
+    "projection_language_changed": false,
+    "source_independence_key_changed": false,
+    "two_document_witness_rule_changed": false,
+    "v1_or_v2_frozen_bytes_modified": false
+  },
+  "status": "FROZEN_AFTER_COUNT_ONLY_CENSUS_BEFORE_SUCCESSOR_CLUSTERING",
+  "truth_boundary": "This contract permits exactly one process-local resource-cap override from 50000 to 131072, chosen mechanically as the smallest power of two not below the count-only census of 107315. It preserves the exact released corpus, split, projection language, clustering, metrics and authority boundaries. The run is secondary resource recovery, not a reclassification of the consumed original official attempt.",
+  "writes_authority": false,
+  "writes_inbox": false,
+  "writes_mainline": false,
+  "writes_sgf": false,
+  "writes_source": false
+}
