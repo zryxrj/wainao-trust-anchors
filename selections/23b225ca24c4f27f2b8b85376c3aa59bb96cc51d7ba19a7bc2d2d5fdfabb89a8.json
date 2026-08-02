@@ -1,0 +1,65 @@
+{
+  "anchor_protocol": {
+    "index_mode": "operator_blind_c1_adjudication_anchor_index_v1",
+    "protocol_id": "operator_blind_c1_adjudication_v1",
+    "required_anchor_ids": [
+      "public_git",
+      "tsa_globalsign",
+      "tsa_sectigo"
+    ],
+    "request_mode": "operator_blind_c1_adjudication_anchor_request_v1",
+    "target_kind": "C1_CONFIRMATION_RUBRIC_AND_COMPILER_CONTRACT"
+  },
+  "authority_boundary": {
+    "automatic_family_promotion_open": false,
+    "chat_confirmation_counts_as_signature": false,
+    "c3_independent_heldout_claim_open": false,
+    "human_may_author_replacement_hypothesis": false,
+    "machine_authored_gate_verdict_count": 0,
+    "machine_output_is_gate_input": false,
+    "signed_decision_required_for_every_candidate": true
+  },
+  "compiler_contract": {
+    "compile_all_confirmed_candidates": true,
+    "human_authored_semantic_byte_count": 0,
+    "human_patch_of_compiler_output_allowed": false,
+    "primary_c3_selection_rule": "LEXICOGRAPHICALLY_LOWEST_HYPOTHESIS_ID",
+    "proposal_status": "MACHINE_COMPILED_HUMAN_CONFIRMED_CANDIDATE_ONLY",
+    "unsigned_decision_compilation_allowed": false
+  },
+  "expected_candidate_count": 20,
+  "expected_external_full_receipt_sha256": "2bb3226b57e71d5b417e75a9acd5523dea034cfa026d198e312fd258f75129d5",
+  "frozen_inputs": {
+    "scripts/operator_blind_c1_adjudication.py": "b54d7ff9fc9950ed7889a5c1af21953d86370154fc734f92c86581fb6ed54b5a",
+    "scripts/public_three_anchor.py": "ff481b7ce3e247681b9b7f04b52e6b22254c7c2e30d74a02c760fa3b59ab442e",
+    "scripts/signature_guard.py": "6fc64120014e8b7dc9e008e1cea84b51162032a6c2f5ac9b0790be7db210d457",
+    "seed/normative_signature_policy_v1.json": "a5bca5ed2d998ce926201fbdaad7fcf28a0753ab066d6c1898d875c908149222",
+    "seed/operator_blind_c1_confirmation_rubric_v1.json": "1cb3ed1e58be7f7a10f13961028c31cb7d4e92382208bff510b64919de15e9c9",
+    "seed/operator_blind_c1_predeclared_identifier_snapshot_v1.json": "acc461eef440703180800defeb855fc2e396a736b6821393543c2c0c05a4ad92",
+    "seed/operator_blind_c1_resource_successor_result_v2.json": "4ad7c8a4e0cdac55ed56103c1dcfc356719737d21f7a725b5d74e7e80644e0da",
+    "seed/software_signature_ceremony_contract_v1.json": "5fbae0c3ac5864e4166896fd30181cfb1d64aff4212ddcc21298ac9e63d22bdf"
+  },
+  "heldout_boundary": {
+    "external_heldout_identity_read_count": 0,
+    "external_heldout_value_read_count": 0,
+    "heldout_or_salt_available_to_reviewer": false,
+    "split_salt_value_read_count": 0
+  },
+  "mode": "operator_blind_c1_adjudication_contract_v1",
+  "review_contract": {
+    "all_candidates_in_frozen_original_order": true,
+    "candidate_semantic_fields_immutable": true,
+    "free_text_decision_fields_allowed": false,
+    "release_after_three_verified_anchors_only": true,
+    "verdicts": [
+      "CONFIRM_NOVEL_FAMILY",
+      "REJECT_REDUCIBLE_TO_EXISTING",
+      "REJECT_LEXICAL_COLLISION",
+      "REJECT_INSUFFICIENT_MACHINE_SPECIFICATION",
+      "REJECT_INCOHERENT_WITNESSES",
+      "ABSTAIN_UNDECIDABLE"
+    ]
+  },
+  "schema_version": 1,
+  "truth_boundary": "The three anchors freeze the rubric, immutable candidate release procedure, detached individual-candidate decision signature requirement, mechanical proposal compiler and primary C3 selection rule before any of the twenty sealed hypothesis identities or values are released. Human review may choose one enum verdict for each unchanged machine hypothesis but may not edit or replace it. Compilation creates candidate-only proposals and never opens C3, promotes a family, reads heldout or salt, or lets machine output become a gate verdict."
+}
