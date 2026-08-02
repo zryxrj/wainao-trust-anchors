@@ -1,0 +1,22 @@
+{
+  "ceremony_contract_sha256": "81f7983a721b6374b1d9b7aa6fb8e94cb76aa64995bd53d3cb2608f5f82b5fb5",
+  "commitment_created_at_utc": "2026-08-02T12:23:24.908251Z",
+  "commitment_id": "c8fa9da5bec3a14c26911ea455803153b8b72a2c582d236108df06307a9db1f9",
+  "discovery_document_count": 89,
+  "discovery_manifest_sha256": "ac58213aa10b89c2de312299e96a68a11127b5989bb66cd94ef804965d4c5e4b",
+  "heldout_document_count": 11,
+  "heldout_manifest_commitment_sha256": "dc28661d960d38f1a28844da1c49696645a3a7d2f3125df497906cbaade1e418",
+  "holder_class": "OPERATOR_HELDOUT",
+  "holder_principal": "SELF_HELD",
+  "mode": "operator_blind_corpus_commitment_v3",
+  "operator_code_manifest_sha256": "b397d1d2ceee8b7a4ecace30c7fecb486d78f904845363b28c2e9ce213b3f156",
+  "selection_rule_anchor_index_sha256": "b23a89f6e05c88cadf5e61a56ceae3ec14b2f49cf6a01ba9b7a203557a762332",
+  "selection_rule_anchor_request_sha256": "2d8aa53ff06085e751997139bf4acc111ef5720672dc54eb00f986c529f430fe",
+  "selection_rule_sha256": "2f1770c8e3695c21e4726ac6afc7392e0497eef91ce95b26fbb2a7caae688efe",
+  "source_universe_document_count": 100,
+  "source_universe_manifest_sha256": "a906cbd69a4e76583ac770478d21cbd520a9bc960a28c50438c38289433082a8",
+  "split_salt_commitment_sha256": "23e313161de62ec94c9ca1e67415e1c62e404aebb95f91c84f003e32fac763e5",
+  "v2_commitment_sha256": "59c625cea4f1fc64031f5dd3d212162c317c91657bcafbdc08f03452e2fd79fe",
+  "v2_contract_sha256": "8071de418460e2b8b70cd9aa7e321a50dfe532589006220ade2ff63a0cc48227",
+  "v2_selector_spec_sha256": "8861e9755d81ddca1a9491fdaee7bcf358806874050695a47e57b66def1f239a"
+}
