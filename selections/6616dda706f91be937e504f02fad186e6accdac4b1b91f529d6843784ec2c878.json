@@ -1,0 +1,69 @@
+{
+  "anchor_protocol": {
+    "index_mode": "operator_blind_c1_signature_bridge_anchor_index_v2",
+    "protocol_id": "operator_blind_c1_signature_bridge_v2",
+    "required_anchor_ids": [
+      "public_git",
+      "tsa_globalsign",
+      "tsa_sectigo"
+    ],
+    "request_mode": "operator_blind_c1_signature_bridge_anchor_request_v2",
+    "target_kind": "C1_SIGNED_DECISION_TRANSPORT_BRIDGE_CONTRACT_V2"
+  },
+  "authority_boundary": {
+    "automatic_family_promotion_open": false,
+    "external_checkpoint_updated_by_bridge": false,
+    "frozen_c1_compiler_reused": true,
+    "global_signature_policy_modified": false,
+    "human_decision_bytes_editable_by_bridge": false,
+    "machine_authored_gate_verdict_count": 0,
+    "machine_output_is_gate_input": false,
+    "one_signature_per_import": true
+  },
+  "candidate_count": 20,
+  "compiler_adapter": {
+    "compiler_path": "scripts/operator_blind_c1_adjudication.py",
+    "compiler_semantics_copied_or_rewritten": false,
+    "resolver_substitution_scope": "EXACT_REQUEST_LOOKUP_AND_EXISTING_CRYPTOGRAPHIC_EVIDENCE_ONLY",
+    "zero_confirmed_candidates_expected": true,
+    "zero_machine_originated_family_proposals_expected": true
+  },
+  "enrollment_index_sha256": "c122e0f1b7d3c0295c18edc09f8dff3c2fd76d3006bed0cb3eed7a7b7393138c",
+  "frozen_inputs": {
+    "scripts/manage_normative_signatures.py": "8960b482ecbdfb4fd6767786a0622adfed7ad79f19b3369972989433cdd4588d",
+    "scripts/operator_blind_c1_adjudication.py": "b54d7ff9fc9950ed7889a5c1af21953d86370154fc734f92c86581fb6ed54b5a",
+    "scripts/operator_blind_c1_signature_bridge_v2.py": "bc2c286aff962859565d0b52841383612f1640e0d7d3c30fe522535f77a12202",
+    "scripts/operator_blind_c1_signature_enrollment.py": "b11d7db0fab965f6a2472773c918b71d95d28085bbcae76a33fb6294f303f997",
+    "scripts/public_three_anchor.py": "ff481b7ce3e247681b9b7f04b52e6b22254c7c2e30d74a02c760fa3b59ab442e",
+    "scripts/signature_guard.py": "6fc64120014e8b7dc9e008e1cea84b51162032a6c2f5ac9b0790be7db210d457",
+    "seed/normative_signature_policy_v1.json": "a5bca5ed2d998ce926201fbdaad7fcf28a0753ab066d6c1898d875c908149222",
+    "seed/operator_blind_c1_adjudication_contract_v1.json": "bd100e46296a7bb1fa0c367955302d752c24b285f7e84cb104ecde7270466d5a",
+    "seed/operator_blind_c1_decision_signature_requests_v1.zip": "545df33b1235a0740f1198de4cdb9c9b6fd5bb5a8f471156ac197f0f310b8fac",
+    "seed/operator_blind_c1_signature_enrollment_result_v1.json": "bcfbd52b661a9a82bec6edc4b02d5f90043cb373e2022d24bbdc8d844de73a4a",
+    "seed/software_signature_ceremony_contract_v1.json": "5fbae0c3ac5864e4166896fd30181cfb1d64aff4212ddcc21298ac9e63d22bdf"
+  },
+  "kind": "operator_blind_c1_signature_bridge_contract_v2",
+  "request_package_sha256": "545df33b1235a0740f1198de4cdb9c9b6fd5bb5a8f471156ac197f0f310b8fac",
+  "request_registry": {
+    "candidate_membership_source": "HASH_PINNED_PUBLIC_REQUEST_PACKAGE_ONLY",
+    "candidate_not_in_registry_rejected": true,
+    "decision_distribution": {
+      "REJECT_INSUFFICIENT_MACHINE_SPECIFICATION": 5,
+      "REJECT_LEXICAL_COLLISION": 15
+    },
+    "dynamic_candidate_enrollment_allowed": false,
+    "global_policy_membership_claimed": false,
+    "request_or_manifest_rewrite_allowed": false
+  },
+  "schema_version": 2,
+  "signature_transport": {
+    "append_only_global_event_ledger_reused": true,
+    "external_allowed_signers_reused": true,
+    "external_checkpoint_must_match_before_each_import": true,
+    "external_checkpoint_refresh_is_human_controlled": true,
+    "one_request_bundle_reused": true,
+    "returned_artifact": "detached_sshsig"
+  },
+  "status": "FROZEN_PENDING_THREE_ANCHORS_BEFORE_ANY_SIGNATURE",
+  "truth_boundary": "This successor repairs only the observed transport mismatch between a closed enrolled C1 request cohort and a generic importer limited to globally prelisted candidates. It cannot add a candidate, alter a request, verdict, rubric, compiler or global policy, update the external checkpoint, author a family, open C3 or turn machine output into a gate verdict. Its own three anchors are required before the first signature."
+}
