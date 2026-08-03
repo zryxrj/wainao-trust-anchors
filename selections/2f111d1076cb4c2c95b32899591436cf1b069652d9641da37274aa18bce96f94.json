@@ -1,0 +1,23 @@
+{
+  "authority_boundary": {
+    "automatic_family_promotion_open": false,
+    "automatic_normative_application_open": false,
+    "automatic_source_admission_open": false,
+    "machine_authored_gate_verdict_count": 0,
+    "machine_output_is_gate_input": false,
+    "official_c1_run_open": false,
+    "official_heldout_run_armed": false
+  },
+  "frozen_inputs": {
+    "scripts/operator_blind_typed_candidate_comparator.py": "7c0ea3be2285d7c7e0dc9bd8768bdfd0d9a5b88792a8e529dd2e281fa6311c44",
+    "seed/operator_blind_typed_candidate_comparator_policy_v1.json": "56ec879ddcd4e42b99d778396667c30565d3c4c7ca2bf9e056b5d3668b5fd0cb",
+    "seed/operator_blind_typed_candidate_comparator_result_v1.json": "616205db086b089f09e1f17e16da64d11f366f5ce918e4f93e3611747be504fe",
+    "seed/operator_blind_typed_representation_contract_v1.json": "fdf2e92bc47a0fe072e5c122a8fda5d681947faa6bc6e24c70699a3711f9cfda",
+    "seed/operator_blind_typed_representation_manifest_v1.json": "127f6341c2f332e0594521381c61f5a9e77ea09fda1c79f04df285633d9c1663"
+  },
+  "kind": "operator_blind_typed_candidate_comparator_contract_v1",
+  "public_control_report_sha256": "b9cf0006eb3922b5777a303af2118467e342b535a861cb12e497d31216aae833",
+  "schema_version": 1,
+  "status": "FROZEN_BEFORE_FRESH_COHORT_NORMATIVE_CLOSED",
+  "truth_boundary": "The comparator now proves candidate-side typed plumbing and fail-closed controls on public fixtures. It reads no fresh candidate identity, makes no semantic-equivalence claim and promotes zero references. A new blind cohort and three anchors are required before any official measurement."
+}
