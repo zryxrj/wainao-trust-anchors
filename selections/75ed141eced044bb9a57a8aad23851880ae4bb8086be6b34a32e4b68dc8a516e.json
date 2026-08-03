@@ -1,0 +1,24 @@
+{
+  "authority_boundary": {
+    "automatic_registration_allowed": false,
+    "external_public_key_required": true,
+    "local_key_generation_allowed": false,
+    "machine_authored_gate_verdict_count": 0,
+    "machine_output_is_gate_input": false,
+    "private_key_repository_storage_allowed": false
+  },
+  "frozen_inputs": {
+    "seed/normative_external_freezer_request_v25_template.json": "b4a86d8f4685d7ae662420d7f11c2f0e632527be61c332db0e07d6b5c6631f0f",
+    "seed/operator_blind_grounded_fresh_anchor_result_v1.json": "10b43de600107caf05c286f68904e8b496686df7bcf48b0fad0b3800bbbaf7dd",
+    "seed/operator_blind_grounded_fresh_commitment_template_v1.json": "62102202d411d59d9e007f5ef57d7c7d40ca494cc62bdcf9a9a48a3bdecb02a6",
+    "seed/operator_blind_grounded_fresh_contract_v1.json": "84d5a1877fc74ae1fb99ab3bc2b67647b7a4a3bbd428bf4a6db55fab15db8e5a"
+  },
+  "implementation_sha256": "8c375f8f888259054a7b112914e063c30a9470700f38ed8dd1cc1b14abf0b27a",
+  "kind": "operator_blind_grounded_holder_registration_contract_v1",
+  "namespace": "wainao-grounded-fresh-cohort-v1",
+  "registration_template_sha256": "ac1db1f0a051b303447653c86aa71f01f5f6ac616893bc8023a69de1ca459021",
+  "result_sha256": "938bc15be056fb593802c623de4353b48b930a875ae3929a15a7ab00b6611858",
+  "schema_version": 1,
+  "status": "FROZEN_AWAITING_NON_IMPLEMENTER_EXTERNAL_KEY",
+  "truth_boundary": "The holder key must be preregistered after this contract is three-anchored and before any fresh document identity is read. The key, registration, commitment and signature stay outside the repository. A key distinct from known implementer keys does not by itself prove human identity or organizational independence."
+}
