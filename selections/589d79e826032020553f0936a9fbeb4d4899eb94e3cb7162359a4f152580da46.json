@@ -1,0 +1,27 @@
+{
+  "authority_boundary": {
+    "automatic_family_promotion_open": false,
+    "automatic_normative_application_open": false,
+    "automatic_source_admission_open": false,
+    "c3_independent_heldout_claim_open": false,
+    "independent_custody_claim_open": false,
+    "machine_authored_gate_verdict_count": 0,
+    "machine_output_is_gate_input": false,
+    "novelty_claim_open": false
+  },
+  "frozen_inputs": {
+    "scripts/operator_blind_grounded_c1_one_shot.py": "b219c4dd600af7da839769a75b2b752b40ec7916a7ec40c8089a345f46632eef",
+    "scripts/operator_blind_grounded_c1_protocol_v2.py": "50d7e69f2b49cb512bc6bc6264d0ee58a4481cb30e25902bd6201262253370a5",
+    "scripts/operator_blind_grounded_fresh_protocol.py": "1906f7eb9f7e8ba2dadc40da484dd91b5a482435341664833b30b7146b9fd0f7",
+    "seed/operator_blind_grounded_c1_preflight_v2.json": "36b2361c483898caed09d99958661f5576e344d339b1fa929ce2e9ed1cd4d8bb",
+    "seed/operator_blind_grounded_c1_protocol_v2.json": "ecff088abb9bc96a4f5287f89e6288ed41492d033dd66219901cbe9d3ee6a796",
+    "seed/operator_blind_grounded_c1_source_rule_v2.json": "3029d6a06ac3e8b5c7485d819089b303493b295210d360fe1cd1477fc183bc9c",
+    "seed/operator_blind_grounded_fresh_anchor_result_v1.json": "10b43de600107caf05c286f68904e8b496686df7bcf48b0fad0b3800bbbaf7dd",
+    "seed/operator_blind_grounded_fresh_contract_v1.json": "84d5a1877fc74ae1fb99ab3bc2b67647b7a4a3bbd428bf4a6db55fab15db8e5a"
+  },
+  "kind": "operator_blind_grounded_c1_contract_v2",
+  "preflight_sha256": "7e239e20eea4bd46c5af85d08a834765f1d58f17946ecff41c6550c70126bc37",
+  "schema_version": 2,
+  "status": "FROZEN_BEFORE_OPERATOR_HELD_FRESH_DOCUMENT_IDENTITY_READ",
+  "truth_boundary": "SELF_HELD_OPERATOR is permitted only for an operator-blind, descriptive C1 grounded-characterization measurement because no independent heldout claim is made. This successor cannot establish custody independence, C3 gain, novelty, semantic reduction, family promotion or a gate verdict."
+}
