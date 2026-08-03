@@ -1,0 +1,19 @@
+{
+  "commitment_created_at_utc": "2026-08-03T11:45:02.244589Z",
+  "commitment_id": "f14481d9e7395b6d4070a793aa8b1db9f30d0935db97cac533424fecf905162a",
+  "document_count": 122,
+  "document_identity_read_before_successor_anchor_count": 0,
+  "document_manifest_sha256": "39b83b17dfa1029df604c18e5231d5997a8aeab392932f18a3733b63515fc463",
+  "document_value_read_before_successor_anchor_count": 0,
+  "generator_contract_sha256": "84d5a1877fc74ae1fb99ab3bc2b67647b7a4a3bbd428bf4a6db55fab15db8e5a",
+  "holder_principal": "SELF_HELD_OPERATOR",
+  "independent_custody_claimed": false,
+  "kind": "operator_blind_grounded_c1_commitment_v2",
+  "manifest_materialization_identity_read_count": 122,
+  "manifest_materialization_value_read_count": 122,
+  "non_novelty_selection_attestation": "SOURCE_SELECTED_WITHOUT_FAMILY_NOVELTY_OR_MATCH_HINTS",
+  "schema_version": 2,
+  "source_rule_sha256": "3029d6a06ac3e8b5c7485d819089b303493b295210d360fe1cd1477fc183bc9c",
+  "source_snapshot_commit_sha": "bec6b5e6631be1e45ed905c9e058ffa7ecd9eb62",
+  "successor_contract_sha256": "c3e3e3f0350afec8749d956182c8d00cbbf29b6f7d8b67de43600f510a48c16d"
+}
