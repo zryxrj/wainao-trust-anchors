@@ -1,0 +1,24 @@
+{
+  "authority_boundary": {
+    "automatic_family_promotion_open": false,
+    "automatic_normative_application_open": false,
+    "automatic_source_admission_open": false,
+    "machine_authored_gate_verdict_count": 0,
+    "machine_output_is_gate_input": false,
+    "official_c1_run_open": false,
+    "official_heldout_run_armed": false
+  },
+  "frozen_inputs": {
+    "scripts/operator_blind_typed_fresh_cohort_protocol.py": "912271ef133cf2c193e4a5ee7a9c236528b170837e17d1ab244d8d0a344f96f8",
+    "seed/operator_blind_typed_candidate_comparator_anchor_result_v1.json": "dd708d2767769482d54c04fdcb458b9b3ab8ef91b38435800b85f9f92ddbeb09",
+    "seed/operator_blind_typed_candidate_comparator_contract_v1.json": "f9a5eae11d1c8cdcf202adfd174182f9fc202c5cc829c6bf1a4bbd79c5a81a36",
+    "seed/operator_blind_typed_fresh_cohort_commitment_template_v1.json": "f5edc3a818bd69a4e3891ebc793872e854fee85ab73add8edd3bef9e3aaf3338",
+    "seed/operator_blind_typed_fresh_cohort_preflight_v1.json": "0227d0c45bab1b08a910581d545fff70e89839d412259a04b671537233bd8e62",
+    "seed/operator_blind_typed_fresh_cohort_protocol_v1.json": "1cb4ba6452446793a714903df7b8ab3c775f9578d9a919eab01157519f0d4af9"
+  },
+  "kind": "operator_blind_typed_fresh_cohort_contract_v1",
+  "preflight_sha256": "263f5e01c709dc57feaec69de66bfc9569da4a6dee65ce0f6e86232e78fef294",
+  "schema_version": 1,
+  "status": "FROZEN_BEFORE_FRESH_COHORT_IDENTITY_READ",
+  "truth_boundary": "This protocol freezes ordering and exact input schemas before any fresh candidate identity is read. It opens no source admission, family promotion, C1, heldout or normative gate. A future official execution requires a new one-shot runner contract after both protocol and cohort commitments have three verified anchors."
+}
