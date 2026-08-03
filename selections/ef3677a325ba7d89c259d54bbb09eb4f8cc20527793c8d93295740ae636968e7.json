@@ -1,0 +1,36 @@
+{
+  "authority_boundary": {
+    "automatic_family_promotion_open": false,
+    "automatic_normative_application_open": false,
+    "automatic_source_admission_open": false,
+    "machine_authored_gate_verdict_count": 0,
+    "machine_output_is_gate_input": false,
+    "novelty_claim_open": false,
+    "official_heldout_run_armed": false
+  },
+  "effective_predeclared_identifier_count": 418,
+  "effective_predeclared_identifier_set_sha256": "53f87c4e85a133ef7a210b018f89627676814207e40f0e91ed2b88967a0e1b88",
+  "frozen_inputs": {
+    "paisheng_saomiao.py": "56a11ac1d556f18e18ba06c5e838eee7abc0d012fdc72630f4223601dc0b3b93",
+    "paisheng_yinqing.py": "59a55861e1a089c7b3706f4d432b4afbb9901555446b773074df5a40deea0861",
+    "piliang_menkong.py": "bf71462de70f5c9457fbfc072601db7d7f15bc9f3ec32910623625e6081c36c8",
+    "scripts/local_residual_opportunity_audit.py": "cc777163287dd26adf1aa48902d495333f4ce1b2171d4dc14123c5573b791de0",
+    "scripts/operator_blind_concept_successor.py": "a4f503fa14e9079238b1762c020d96553bb084edd98ec3dd727d8c94dd52bc61",
+    "scripts/operator_blind_concept_successor_v2.py": "a98aea1605ab0d053014d175b4fe9eead848a0010c7e926672abef4ea87b9b66",
+    "seed/operator_blind_concept_successor_policy_v1.json": "b1833b3a672b5841eaea9695fd115f7a799145d9ce399d1acf7c5653caf0d673",
+    "seed/operator_blind_concept_successor_v2_policy.json": "ea44702c6390d99523988f749d81d735423c355ad77a639ee41ff7db6af6d9ec",
+    "seed/operator_blind_concept_successor_v2_public_controls.json": "92dc5f8398678318573d265842cd5685e2b43b1100f222c19f781534139233f4",
+    "seed/operator_blind_typed_candidate_comparator_contract_v1.json": "f9a5eae11d1c8cdcf202adfd174182f9fc202c5cc829c6bf1a4bbd79c5a81a36",
+    "seed/operator_blind_typed_candidate_comparator_policy_v1.json": "56ec879ddcd4e42b99d778396667c30565d3c4c7ca2bf9e056b5d3668b5fd0cb",
+    "seed/operator_blind_typed_fresh_cohort_anchor_result_v1.json": "1ea889f83ff1e9a59d9cab10cbc7faa18d395860720a9cf52d99a9302923be9c",
+    "seed/operator_blind_typed_fresh_cohort_protocol_v1.json": "1cb4ba6452446793a714903df7b8ab3c775f9578d9a919eab01157519f0d4af9"
+  },
+  "implementation_sha256": "1906f7eb9f7e8ba2dadc40da484dd91b5a482435341664833b30b7146b9fd0f7",
+  "kind": "operator_blind_grounded_fresh_contract_v1",
+  "preflight_sha256": "133ca4ec7c21d088bbee70b60e749e60a5c32846ecfa95910eba13b45db3b214",
+  "protocol_sha256": "c54404f74e4130878033a95f09fc143018346a58061bd27a973802952463583b",
+  "public_control_report_sha256": "261eb641693dd9a047961d3ad14ac4030130a4b775d9bcefa41cbb80c229e0b3",
+  "schema_version": 1,
+  "status": "FROZEN_BEFORE_FRESH_RAW_DOCUMENT_IDENTITY_READ",
+  "truth_boundary": "This protocol tests whether frozen machine code can form a grounded proposition characterization from fresh raw documents. It does not test semantic novelty, typed-reference promotion, source truth or a gate. The previous typed-candidate protocol remains valid only as representation generalization evidence because its inputs already contain semantic fields."
+}
