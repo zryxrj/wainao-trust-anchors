@@ -1,0 +1,23 @@
+{
+  "case_count_per_round": 8,
+  "contract_sha256": "d9375ab73ed37950e016787ab71a154a76c2919eeb3300cca81a4d2e91bd8f7c",
+  "fresh_case_identity_materialized_count": 0,
+  "fresh_family_identity_materialized_count": 0,
+  "fresh_target_value_read_count": 0,
+  "generator_kind": "VERIFIED_PRIMITIVE_PARALLEL_PRODUCT_COMPILER_V1",
+  "machine_authored_gate_verdict_count": 0,
+  "machine_output_is_gate_input": false,
+  "maximum_official_run_count": 1,
+  "mode": "prospective_program_prequential_envelope_v5",
+  "official_round_count": 20,
+  "official_run_count": 0,
+  "official_run_open": false,
+  "posthoc_round_exclusion_allowed": false,
+  "predecessor_result_sha256": "0adc25b6c0a013fb0f8950ef4933e470b64b72154bea848f1344581cfb05757e",
+  "prequential_policy_sha256": "fe671c73bca149cdbe35960be54eb080ecd5348852fd56dc7536660d37b2e652",
+  "result_schema_sha256": "72adefd97bff43ba720b3a187fe1542b719afb7a0de3d3089ec72c395b5f7c8f",
+  "runner_path": "scripts/prospective_program_prequential_v5.py",
+  "runner_sha256": "f7ce2c5a2472dc48835fb1cdeebc8234d0c9caf247db6904c80f41986dd8dae0",
+  "settlement_binding_sha256": "6b194dfb433281aaacbfa388dcff38568e913046a80be7dfbb3c4a504adf53cb",
+  "target_values_persisted_count": 0
+}
