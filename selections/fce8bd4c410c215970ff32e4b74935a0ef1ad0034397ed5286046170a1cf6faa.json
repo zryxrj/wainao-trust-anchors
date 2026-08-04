@@ -1,0 +1,65 @@
+{
+  "contract_sha256": "adcbcef5c0a19677abdf26b952d461393e5b6075539f126bf0796b5b7fcaf04a",
+  "exact_orbit_e_bases": [
+    1,
+    2,
+    4,
+    16
+  ],
+  "exact_orbit_e_formula_kind": "PREDICTION_WEIGHTED_EXACT_ORBIT_LIKELIHOOD_RATIO_HEDGE",
+  "external_anchor_evidence_count": 0,
+  "heldout_case_identity_delivered_to_runner_count": 0,
+  "heldout_oracle_value_read_count": 0,
+  "heldout_private_file_sha256": "25c440503e0ee21367b4d174c83d1623175455813db2fc6700550d66400ef2d6",
+  "machine_authored_gate_verdict_count": 0,
+  "maximum_official_run_count": 1,
+  "mode": "prospective_program_heldout_envelope_v4",
+  "official_heldout_run_count": 0,
+  "official_heldout_run_open": false,
+  "posthoc_case_exclusion_allowed": false,
+  "private_salt_commitment_sha256": "c1d21e35f5dd7ae64cc83104629786b1305028614141613cb40f5fbbb4df2545",
+  "required_external_anchor_evidence_count": 3,
+  "result_schema_sha256": "ef672c60a58dbe4f0172ea9c4b4c5ca61dcea6b245bd34eda77e468e61b4630a",
+  "runner_path": "scripts/prospective_program_heldout_v4.py",
+  "runner_sha256": "d8ee6b77cb94946976e65e91b171e8955f6cc102a73c6b139ee17e806e39bed5",
+  "same_ir_failure_recipe": "PRESERVE_OP_PROGRAM_V1_FAMILY_AND_METADATA_SET_OPS_EMPTY_BIND_ORIGINAL_AS_MUTANT",
+  "selected_predicate_manifest": [
+    {
+      "pair_sha256": "cd64066ca3c2f58b2f074999a25fce770e8e97b8f894dcf2d1a961b951c94e82",
+      "selected_predicate": [
+        {
+          "field": "intervals",
+          "kind": "PAIR_START_LT_END"
+        }
+      ],
+      "selected_predicate_sha256": "bef066c20c89e893627032cbddd18cb9c74151fa23389361225ab916b9fcb893",
+      "semantic_family": "merged_intervals"
+    },
+    {
+      "pair_sha256": "8a173a0e715c98fe4b99a3302723b51b6debe1ccd5354b6609d185adba5433b2",
+      "selected_predicate": [
+        {
+          "field": "limit",
+          "kind": "FIELD_IS_INTEGER"
+        },
+        {
+          "field": "nums",
+          "kind": "LIST_ITEMS_ARE_NUMBERS"
+        }
+      ],
+      "selected_predicate_sha256": "168a50aa2c336719af9d6774f45cb6eaf83f40035533135d63105607796efb00",
+      "semantic_family": "longest_contiguous_sum_at_most"
+    }
+  ],
+  "selected_predicate_manifest_sha256": "80d02d268621136a1ceb811a85d45e5de84ec417446729c44ec02e2766998577",
+  "target_values_persisted_count": 0,
+  "truth_boundary": "This contract freezes the evaluator and one-shot settlement missing from V3. A passing row is qualified only on the finite, salted, prefrozen heldout cases accepted by its prefrozen predicate. It is not mathematical proof or unbounded-domain correctness.",
+  "v2_audit_sha256": "632d17c47d3b552de77aa30826342de291e18e9b7c8fffcdb6b0da878da1a273",
+  "v2_statistical_contract_sha256": "2ac08ce4c372160824f125ae0a117446263006be5cb4ee8dad431acd31a8f50c",
+  "v3_anchor_request_sha256": "ec0a96097d45477248b5f699e4fc75dd56f739c4aa993454785e091d94d9e4f5",
+  "v3_commitment_sha256": "65df751334e6f76e3f2ede0c743f5b331b7e2a6b57062f8d911338c6655deb1d",
+  "v3_contract_sha256": "955ca48ef0934b0528d75870729a30101275cfd7a8fb5e00023dc0c32ee02539",
+  "v3_discovery_result_sha256": "1c455b729c33413d220f327e2836f77289cabada2e0c4ea2b0e28acccc4358fc",
+  "v3_envelope_sha256": "6d55938e7bd56798eafd909ca03c73770e10600645a003970cba0979a8c6dcf6",
+  "writes_authority": false
+}
