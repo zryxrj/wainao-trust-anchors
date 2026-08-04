@@ -1,0 +1,22 @@
+{
+  "contract_sha256": "dab55c4c750256af2665861c7540744701558ffff75b2dbc3d1a3666965d292e",
+  "domain_compiler_sha256": "e8653a05b775ba6b92c0c03d844059c3396460a93176750ca83e0f1c51e5bfa1",
+  "fixed_family_count": 2,
+  "fresh_target_value_read_count": 0,
+  "machine_authored_gate_verdict_count": 0,
+  "machine_output_is_gate_input": false,
+  "maximum_official_run_count": 1,
+  "mode": "prospective_program_qualification_envelope_v6a",
+  "official_run_count": 0,
+  "official_run_open": false,
+  "partition_manifest_sha256": "c45a8337c82480a156cf32f6f1d93947059a5af1f552c4668e1968dff85742d2",
+  "post_anchor_sampled_case_identity_materialized_count": 0,
+  "posthoc_case_exclusion_allowed": false,
+  "prefrozen_exhaustive_domain_case_identity_derivable_count": 2,
+  "qualified_primitive_count": 4,
+  "repartition_after_qualification_allowed": false,
+  "result_schema_sha256": "38383a9aeb682ac3cfbfb31546875980f910031961877b0d28bedda7e968fcdc",
+  "runner_path": "scripts/prospective_program_qualification_v6a.py",
+  "runner_sha256": "e360be59cc6b9fb45ca14ef1fc84afdc1001ab03e3359d498e5f9102efcc299f",
+  "v6a_cases_reusable_as_v6b_learning_evidence": false
+}
