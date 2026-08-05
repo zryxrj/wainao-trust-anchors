@@ -1,0 +1,12 @@
+{
+  "contract_sha256": "3a6ca2e12f5121581e7f4c2ff1c1081fa0d42191de10ba7e5d8d9ecaeebd2fce",
+  "fresh_case_identity_materialized_count": 0,
+  "fresh_program_output_value_read_count": 0,
+  "maximum_case_count": 512,
+  "maximum_official_run_count": 1,
+  "mode": "prospective_program_verified_macro_fresh_envelope_v6b22",
+  "official_run_count": 0,
+  "runner_sha256": "1fe05c9a08b236c15e64e9552ad2ddcf405fd796fc03ed17aa9e0d03b4a5041f",
+  "selected_relation_sha256": "c493e212c05b42ae56ca600f766f693ed6766486b4d1e8312bd53b90b385ff1b",
+  "true_agent_claim_open": false
+}
