@@ -1,0 +1,71 @@
+{
+  "created_at_utc": "2026-08-05T12:24:16.684162Z",
+  "mode": "prospective_program_machine_relation_anchor_request_v6b16",
+  "protocol_id": "prospective_program_machine_relation_fresh_v6b16",
+  "request_id": "6df9453e6b5bf30efdfc68362c53baba890c9e4a769f23e1ecf621a122ba3219",
+  "required_anchors": [
+    {
+      "anchor_id": "public_git",
+      "kind": "public_git",
+      "operator_id": "github_remote"
+    },
+    {
+      "anchor_id": "tsa_globalsign",
+      "kind": "rfc3161",
+      "operator_id": "globalsign_nv_sa",
+      "trust_anchor_der_sha256": "2cabeafe37d06ca22aba7391c0033d25982952c453647349763a3ab5ad6ccf69",
+      "trust_anchor_spki_sha256": "682747f8ba621b87cdd3bc295ed5cabce722a1c0c0363d1d68b38928d2787f1e",
+      "tsa_url": "http://timestamp.globalsign.com/tsa/r6advanced1"
+    },
+    {
+      "anchor_id": "tsa_sectigo",
+      "kind": "rfc3161",
+      "operator_id": "sectigo_limited",
+      "trust_anchor_der_sha256": "e793c9b02fd8aa13e21c31228accb08119643b749c898964b1746d46c3d4cbd2",
+      "trust_anchor_spki_sha256": "c784333d20bcd742b9fdc3236f4e509b8937070e73067e254dd3bf9c45bf4dde",
+      "tsa_url": "http://timestamp.sectigo.com/rfc3161"
+    }
+  ],
+  "synthetic_test_only": false,
+  "target_kind": "RUNNER_BOUND_MACHINE_RELATION_FRESH_ENVELOPE_V6B16",
+  "target_sha256": "3b66d4cd731d2f4e7598f95cb30a569fea17fb005d95173e27831ba6bc944958",
+  "verifier_runtime": {
+    "mode": "external_verifier_runtime_spec_v24",
+    "tools": [
+      {
+        "executable_sha256": "da240fe9bc24895b3e04150a4990b8a6ff329ecabcd8f19684c2cc310da5ef3f",
+        "name": "git",
+        "path_env": "WAINAO_GIT_EXE",
+        "release_label": "git version 2.53.0.windows.1",
+        "version_args": [
+          "--version"
+        ],
+        "version_exit_code": 0,
+        "version_text": "git version 2.53.0.windows.1"
+      },
+      {
+        "executable_sha256": "3fbfe9fa1fdfbae35980ce3b1e6f5a2db843a3d4d69b7d1c13168ec2f1b538a6",
+        "name": "openssl",
+        "path_env": "WAINAO_OPENSSL_EXE",
+        "release_label": "OpenSSL 3.5.5 27 Jan 2026",
+        "version_args": [
+          "version"
+        ],
+        "version_exit_code": 0,
+        "version_text": "OpenSSL 3.5.5 27 Jan 2026"
+      },
+      {
+        "executable_sha256": "3e2f8579e998bc77870b4544efa852391d20afb1bdcf6f48fccb34383ab4b730",
+        "name": "ssh-keygen",
+        "path_env": "WAINAO_SSH_KEYGEN_EXE",
+        "release_label": "OpenSSH_for_Windows file version 9.5.5.1",
+        "version_args": [
+          "-?"
+        ],
+        "version_exit_code": 1,
+        "version_text": "usage: ssh-keygen"
+      }
+    ]
+  },
+  "verifier_runtime_spec_sha256": "fd4b41925bb24102cb2dfeccade172faaf13d14109453c356e349992eea27a1f"
+}
