@@ -1,0 +1,32 @@
+{
+  "candidate_relation_file_sha256s": [
+    "1ed25a675ad9da76ebdeae04956f0cae703e86f6d5895326de89bff41f2b0009",
+    "f2fdeecd0a535e173ace860549033ba60837476ec14bb177dcc56c339a33e237"
+  ],
+  "compatibility_delta": {
+    "changed_evaluation_byte_count": 0,
+    "changed_gate_threshold_count": 0,
+    "changed_statistical_rule_count": 0,
+    "current_arguments": [
+      "request_mode",
+      "index_mode",
+      "target_kind",
+      "protocol_id",
+      "target_sha256"
+    ],
+    "obsolete_arguments": [
+      "expected_request_mode",
+      "expected_index_mode",
+      "expected_target_kind",
+      "expected_protocol_id",
+      "expected_target_sha256"
+    ],
+    "scope": "PUBLIC_THREE_ANCHOR_VERIFY_INDEX_KEYWORD_ADAPTER_ONLY"
+  },
+  "contract_sha256": "006c854f4347c3556e0ef9f6c98ba87c467664c95ad5a7778f8ac1c8b8874a1b",
+  "fresh_case_identity_read_count_before_freeze": 0,
+  "mode": "prospective_program_machine_relation_batch_fresh_successor_envelope_v6b19",
+  "predecessor_envelope_sha256": "489e424b53d9e51210a4d71f0ad233d0920ec8ab04c4129742e7c8fb9858af1f",
+  "program_output_value_read_count_before_freeze": 0,
+  "script_sha256": "52284699a85e919d71a81e77eded86f31e25365bed8ac5825aa7a814c61a5e4d"
+}
