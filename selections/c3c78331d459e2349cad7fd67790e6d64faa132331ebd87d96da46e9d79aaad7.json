@@ -1,0 +1,12 @@
+{
+  "case_count": 256,
+  "contract_sha256": "96777fd3b881648eddb10e8a0f0483967ba83b4876934ff502477b4479b85d71",
+  "fresh_case_identity_materialized_count": 0,
+  "fresh_target_value_read_count": 0,
+  "maximum_official_run_count": 1,
+  "mode": "prospective_program_self_triggered_repair_fresh_envelope_v6b12",
+  "official_run_count": 0,
+  "runner_sha256": "e35fa0ccd6bc987da7b147b96de7820775890c0f880521c75cbcc6feb52551d4",
+  "selected_material_sha256": "08c29ab07534cfd30ea28a0eb7b212c74cbed953de36a6edfc010c2243ea72e5",
+  "true_agent_claim_open": false
+}
