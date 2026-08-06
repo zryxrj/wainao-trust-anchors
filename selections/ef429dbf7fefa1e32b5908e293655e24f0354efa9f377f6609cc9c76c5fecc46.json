@@ -1,0 +1,8 @@
+{
+  "contract_sha256": "cfa073435f438a014bb9bb77805f1e03a8d1e867edc8a1e746b5d184ad0f93c0",
+  "created_at_utc": "2026-08-06T05:14:10.255029Z",
+  "mode": "prospective_program_external_counterexample_executor_envelope_v4",
+  "selector_envelope_sha256": "daffe9a2b5ad968f544469355653042316af099491df91b7182380ad8c6e853d",
+  "selector_identity_read_count": 0,
+  "synthetic_test_only": false
+}
