@@ -1,0 +1,9 @@
+{
+  "contract_sha256": "f350de024a648382d36f68e2006f858adfd583cf5174313ac8ad9e16c9148bba",
+  "created_at_utc": "2026-08-06T04:48:03.780929Z",
+  "mode": "prospective_program_external_counterexample_source_envelope_v1",
+  "selector_identity_read_count": 0,
+  "source_commit_sha": "568c2b8393973cd172a466546c9d95779c452438",
+  "source_remote": "https://github.com/pytoolz/toolz.git",
+  "synthetic_test_only": false
+}
