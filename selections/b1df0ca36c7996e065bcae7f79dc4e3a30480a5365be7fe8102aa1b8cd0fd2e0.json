@@ -1,0 +1,13 @@
+{
+  "cohort_sha256": "ca20ab94f9796f9980dd95c10eb18a33ceb66f0500b76e0ef98158bcb7fa1ea4",
+  "contract_sha256": "4d17d5493f1556dada0a266e822e979d03b81dc70e18888c217ac32d179083ed",
+  "fresh_semantic_value_read_count": 0,
+  "maximum_official_run_count": 1,
+  "mode": "prospective_program_ctssb_paired_fresh_envelope_v5a",
+  "normalizer_sha256": "cf6092603a67fb00a2363cea3e6888fe5e7ff9797fd8641bda6e6a703acc3793",
+  "official_run_count": 0,
+  "runner_sha256": "b5db6bafa381b07fb59ddbcb7a516aafd2a11f596927c1cef6cbb31625a25200",
+  "selected_component_sha256": "32a46a913cbf2063ea40f5d0d2eabd7ceb534dc18e3b6125252c2c2fe867ab65",
+  "selected_project_count": 384,
+  "true_agent_claim_open": false
+}
