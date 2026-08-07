@@ -1,0 +1,13 @@
+{
+  "E_project_count": 128,
+  "F_project_count": 2048,
+  "contract_sha256": "114c50857656a7d86090ddf4d2af9775e11d584cdb4aa9c0a7772a3e653d220c",
+  "fresh_project_identity_materialized_count": 0,
+  "fresh_semantic_value_read_count": 0,
+  "machine_authored_gate_verdict_count": 0,
+  "maximum_official_run_count": 1,
+  "mode": "ctssb_recovery_public_fresh_envelope_v6",
+  "official_run_count": 0,
+  "predicate_sha256": "952d549e47455d8354346b76092d19fdeaded1754fabd5421375637fd4f4918b",
+  "runner_sha256": "8113e7e9411b2d1a97e5649d6959260dffb450046c37cbbd22a36ff6d63b4651"
+}
