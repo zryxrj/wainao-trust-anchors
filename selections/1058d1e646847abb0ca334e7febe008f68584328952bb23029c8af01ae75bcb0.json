@@ -1,0 +1,11 @@
+{
+  "behavior_value_read_count": 0,
+  "contract_sha256": "c658a3abb3927889d8f6a37a24eef20a0a02183510a68281a3e731ba7b634177",
+  "machine_authored_gate_verdict_count": 0,
+  "mode": "normative_test262_behavior_opportunity_envelope_v2b",
+  "official_run_count": 0,
+  "retirement_sha256": "08a5dfe3bc9482e7210932f93a1d8417c75bb2b73fe33f584b12c1fcb7007833",
+  "runner_sha256": "d9dc0708788479186855be873400a033745bb863badac06e527b8a30bc896083",
+  "selected_pair_manifest_sha256": "229f69588a6dadb3de59d7fc833cdfe70f127ab6847b287366bbd07c01b13f4e",
+  "selection_sha256": "36fe6aee57d4b05ee64c67226bfc201c9d6a938ff0417ef7ef5de70e1affa62a"
+}
