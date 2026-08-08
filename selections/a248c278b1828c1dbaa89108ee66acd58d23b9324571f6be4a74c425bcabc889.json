@@ -1,0 +1,11 @@
+{
+  "contract_sha256": "55d6064c836cc463a3d301d2d7dc14870681db17f8bef98f89fe769d84a9109f",
+  "fresh_behavior_value_read_count": 0,
+  "identity_fresh_claimed": false,
+  "machine_authored_gate_verdict_count": 0,
+  "mode": "prospective_program_behavior_execution_envelope_v2b",
+  "official_run_count": 0,
+  "preflight_sha256": "ee7b8931c9976463c4948d23ab3954c17db1f1beedec7e4279cff5f939ff734a",
+  "rehearsal_sha256": "1df463bbb8dca8b3e918e9babed6c95162fa9ccc803ecec99281bac42d75b934",
+  "runner_sha256": "8beea0cb52c6ed6d907b726539032d6580e8c17936b4dc68ee8e86f1507df8ab"
+}
