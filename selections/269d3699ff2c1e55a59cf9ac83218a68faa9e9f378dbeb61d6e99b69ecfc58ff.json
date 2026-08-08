@@ -1,0 +1,12 @@
+{
+  "contract_sha256": "8aa1d76e286a8855096d8b790ea8484ce33dd63fd8d32243516582e2898ac645",
+  "fresh_behavior_value_read_count": 0,
+  "identity_fresh_claimed": false,
+  "machine_authored_gate_verdict_count": 0,
+  "mode": "prospective_program_behavior_execution_envelope_v2a",
+  "official_run_count": 0,
+  "preflight_sha256": "90eb64e1fdc4625d56c7df1c9d7d6b217412bd9f224e694f6c671f0c82d5d477",
+  "rehearsal_sha256": "99c3cf684cf803dc694d8052248522bfbdc92ae861fa5b89fe6dcb796c4ff123",
+  "resource_manifest_sha256": "fd83ce15253205891586bfc128164246145ec58d15ec4318f1802d964ee484d3",
+  "runner_sha256": "cac94726acd9f210732eb1019f7615bdabae130ddb92d8670030af01cb3b8361"
+}
