@@ -1,0 +1,45 @@
+{
+  "schema_version": "language_comprehension_successor_v3_anchor_envelope",
+  "protocol_id": "language_comprehension_successor_v3",
+  "target_kind": "LABEL_FIREWALLED_CHINESE_WSD_NIL_V3_ENVELOPE",
+  "repository_baseline_commit": "59168ca992f8af3926288f3a04b0cdc6d9b182c2",
+  "contract": {
+    "path": "seed/language_comprehension_successor_v3_contract.json",
+    "sha256": "06744920eafa4c8fccf70834099a648506c0726abd8726c2686164baef44281d"
+  },
+  "runner": {
+    "path": "scripts/language_comprehension_successor_v3.py",
+    "sha256": "df169439c42b5608404a8747f76566708083c2bd3f77a54d11c8006121b6bf0c"
+  },
+  "candidate_firewall": {
+    "path": "scripts/language_comprehension_label_firewall_v3.py",
+    "sha256": "7bd3761e792d6eda836d70a4472160eca66a6ab7bc32b54c7e6dbdd5570b2b5b",
+    "candidate_label_value_read_count": 0,
+    "label_permutation_prediction_change_count": 0
+  },
+  "source_commitment": {
+    "repository": "https://github.com/thunlp/SememeWSD.git",
+    "commit": "e6beaf88101df8f2bd02ef9792749e2a94387c48",
+    "data_path": "data/dataset.json",
+    "data_sha256": "7953745e9e83523a5c19000d4d04a9960ff1a5a3db2a275f61f0a4b72f0e167e"
+  },
+  "ontology_commitment": {
+    "name": "OpenHowNet HowNet_dict_complete",
+    "sha256": "053b029f75bd4916c4cd5af9b32b23e411e633466d70c942e282258e87342126"
+  },
+  "selector_commitment": {
+    "selector": "SHA256_RANKED_WITHOUT_REPLACEMENT",
+    "selector_salt": "language-comprehension-v3-label-firewall-fresh-2026-08-09",
+    "known_concept_count": 20,
+    "surface_variants_per_known_concept": 2,
+    "unknown_negative_count": 20,
+    "minimum_lexical_overlap_nil_count": 5,
+    "exclude_prior_records_and_target_words": true
+  },
+  "claim_boundary": "PINNED_OPENHOWNET_WSD_WITH_ONTOLOGY_ABSENCE_NIL_ONLY",
+  "new_source_record_identity_read_count": 0,
+  "three_anchor_count": 0,
+  "official_run_count": 0,
+  "machine_authored_gate_verdict_count": 0,
+  "truth_verified": false
+}
