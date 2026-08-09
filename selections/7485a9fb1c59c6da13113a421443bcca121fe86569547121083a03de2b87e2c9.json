@@ -1,0 +1,18 @@
+{
+  "candidate_component_sha256": "7976a51f611d1b2a98214812c08fdbbbe301de8972dd9ff71c5907c05b12e49e",
+  "contract_sha256": "ae4fdf386f00b25eec72ad0ac74ca707f01149c349a7bebdcf49d9f6deac3d29",
+  "machine_authored_gate_verdict_count": 0,
+  "mode": "prospective_program_swebench_reserve_overlap_envelope_v8o",
+  "official_run_count": 0,
+  "reserve_identity_manifest_sha256": "db54405215a2ec46cb17a3a1129cbea00ab9a1bbc523099c033f55a57732baae",
+  "reserve_instance_count": 263,
+  "reserve_patch_value_read_count": 0,
+  "reserve_project_count": 2,
+  "reserve_project_manifest_sha256": "3aa1a7bcf7da04c85933a60dcca454b1702c19115865654f38e7b0cf115c670d",
+  "source_dataset_sha256": "43ed5a3d1d98da36472c1ade65ddd2085d7b4ff694fcaf6a023a07c5c1f32f21",
+  "source_gate_sha256": "84c3b2b9b3ab0349793f4ee0f15c511d3499f2463d8517db769a9a390c23833c",
+  "source_selector_sha256": "371726e2dc7c6eda1dbd2a801a593232530a3d99692eca27857f7d1014a0f232",
+  "symmetric_overlap_estimand_sha256": "22c54bf670d6f5f5d62ee83f12033bf2b92642bb569dccf7fead9834571e276e",
+  "test_identity_or_behavior_value_read_count": 0,
+  "true_agent_claim_open": false
+}
